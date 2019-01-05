@@ -1,5 +1,6 @@
 <template>
     <div id="editor">
+        <h1 class="headerLogo"><img alt="MyMarkdown" src="../assets/logo.png"></h1>
         <h1>エディター画面</h1>
         <span>{{ user.displayName }}</span>
         <button @click="logout">ログアウト</button>
@@ -125,6 +126,9 @@ export default {
 }
 .preview{
     width:40%;
+    text-align: left;
+}
+.headerLogo{
     text-align: left;
 }
 </style>
