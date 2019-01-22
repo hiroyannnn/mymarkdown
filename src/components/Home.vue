@@ -1,7 +1,7 @@
 <template>
     <div id="home">
         <h1><img alt="MyMarkdown" src="../assets/logo.png"></h1>
-        <button @click="googleLogin">Googleアカウントでログイン</button>
+        <v-btn color="success" @click="googleLogin">Googleアカウントでログイン</v-btn>
         <div>
             <router-link :to="{ name:'terms'}">利用規約</router-link>
         </div>
